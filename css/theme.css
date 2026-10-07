@@ -1,0 +1,27 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Fira Sans', Helvetica, sans-serif, 'helvetica neue', Arial;
+    font-size: 120%;
+    font-weight: 300;
+}
+
+a:link{
+    color:#0066CC;
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+
+a:visited{
+    color:#0066CC;
+}
+
+a:hover{
+    /* color:#80bfff; */
+    text-decoration: underline;
+}
+
+#pub li:not(:last-child) {
+    margin-bottom: 20px;
+}
